@@ -1,0 +1,63 @@
+#menu {                                                                               
+    background-color: rgb(145, 66, 66);                                                             
+    /*grid-area: 2/2/5/1;*/
+    
+    margin: 0px;
+    width: 120px;
+    /*padding: 0px;
+    position: left;
+    left: -200px;*/
+    display: none;
+    color: black;
+    min-height: 700px;
+    
+}
+
+#menu a {
+    font-family: 'Russo One', sans-serif;
+    color:rgba(230, 230, 230, 0.9);
+    list-style: none;
+    padding: 15px 10px;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+#menu a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+#menu {
+    grid-column: 1/2;
+    grid-row: 2/6;
+}
+
+#sideMenu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    min-height: 800px;
+    
+}
+
+.Menu {
+    
+    font-size: 150px;
+    font-family: 'Russo One', sans-serif;
+    transform: rotate(270deg);
+    /*margin-top: -500px;*/
+    /*margin-left: -220px;*/   
+    
+}
+
+.Menu {
+    grid-column: 2/3;
+    grid-row: 2/6;
+   
+}
